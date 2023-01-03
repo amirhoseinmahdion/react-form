@@ -1,0 +1,130 @@
+.contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 197, 189);
+    min-height: 100vh;
+}
+.formcontanier{
+    width: 400px;
+    height: fit-content;
+    background-color: rgb(253, 251, 255);
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(253, 251, 255);
+}
+.h2{
+    color:  rgb(34, 127, 164);
+    font-size: 30px;
+    
+    line-height: 20px;
+}
+.formfiled{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.formfiled label{
+    color: grey;
+    text-align: left;
+    font-weight: bolder;
+  margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.formfiled input {
+    padding: 5px;
+    border-radius: 10px;
+}
+.formfiled p {
+    height: 10px;
+    color: red;
+    width: fit-content;
+    background-color: rgb(251, 242, 242);
+    border: 1px ;
+    border-radius: 5px;
+    text-align: left;
+    line-height: 10px;
+}
+.uncompolited {
+    border-top-color: white ;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition:all 0.2s ease-in-out ;
+}
+.forminput{
+       
+    border: 2px solid silver;
+    border-radius: 5px;
+    transition:all 0.2s ease-in-out ;
+}
+
+.uncompolited :focus,
+.forminput:focus{
+    border: 2px solid skyblue;
+    outline: none;
+    line-height: 30px;
+}
+.login{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+.login a {
+font-size: 20px;
+color: rgb(34, 127, 164);
+transition: all 0.4s ease-in;
+
+}
+.login button{
+    color: rgb(34, 127, 164);
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+.login button:hover{
+    background-color: rgb(34, 127, 164);
+    color: black;
+}
+.login a:hover{
+    background-color: rgb(34, 127, 164);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.login a{
+    text-decoration: none;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="checkbox"] {
+    margin-right: 110px;
+    padding: 20px;
+    transition: all 0.3s ease-in;
+    padding: 10px;
+    
+    
+}
+input[type="checkbox"]:checked {
+    background-color: blue;
+    border-radius: 100%;
+
+    
+}
+.checkbox label{
+    color:  rgb(34, 127, 164);
+}
